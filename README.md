@@ -57,7 +57,8 @@ and MVC architecture.
 *'Set'
     *'id': primary key
     *'name'
-    *'origin_date'
+    *'date_created'
+    *'description'
     *'user_id': foreign key that references 'User.id'
 
 *'Fact'
