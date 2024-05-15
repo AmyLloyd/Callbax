@@ -22,6 +22,7 @@ Set.init(
         },
         description: {
             type: DataTypes.STRING,
+            allowNull: true,
         },
         user_id: {
             type: DataTypes.INTEGER,
